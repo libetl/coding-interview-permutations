@@ -7,4 +7,6 @@ Array.prototype.without = function(value){ return [...this.slice(0, this.indexOf
 
 const numberOfDigitsIn = number => Math.max(0, Math.floor(Math.log10(number)) + 1)
 
+
+//This module should compute all the possible permutations for a number, which is translated into an array of digits
 export default number => {throw new Error('To be implemented')}
